@@ -1,0 +1,160 @@
+{
+    "pending_emp_basic_details": {
+        "emp_no": "1",
+        "auth_id": "1",
+        "designation": "fdsf",
+        "office_no": "123",
+        "fax": "2312",
+        "joining_date": "1980-06-17",
+        "retirement_date": "1980-06-17",
+        "employment_nature": "fhfhfhf"
+    },
+    "pending_emp_education_details": [
+        {
+            "emp_no": "1",
+            "sno": "1",
+            "exam": "ddd",
+            "specialization": "ddd",
+            "institute": "fds",
+            "year": "1980-06-17",
+            "grade": "ee",
+            "division": "fddf"
+        },
+        {
+            "emp_no": "1",
+            "sno": "2",
+            "exam": "ddd",
+            "specialization": "ddd",
+            "institute": "fds",
+            "year": "1980-06-17",
+            "grade": "ee",
+            "division": "fddf"
+        }
+    ],
+    "pending_emp_family_details": [
+        {
+            "emp_no": "1",
+            "sno": "1",
+            "name": "fdd",
+            "relationship": "Fdfd",
+            "profession": "ff",
+            "present_post_addr": "FDdf",
+            "photopath": "DFfd",
+            "dob": "1980-06-17",
+            "active_inactive": "ddf",
+            "emp_dep_allergy": "FDfd",
+            "emp_dep_disease": "fddf"
+        },
+        {
+            "emp_no": "1",
+            "sno": "2",
+            "name": "fdd",
+            "relationship": "Fdfd",
+            "profession": "ff",
+            "present_post_addr": "FDdf",
+            "photopath": "DFfd",
+            "dob": "1980-06-17",
+            "active_inactive": "ddf",
+            "emp_dep_allergy": "FDfd",
+            "emp_dep_disease": "fddf"
+        }
+    ],
+    "pending_emp_last5yrstay_details": [
+        {
+            "emp_no": "1",
+            "sno": "1",
+            "from": "2015-02-19",
+            "to": "2014-03-12",
+            "res_addr": "ff",
+            "dist_hq_name": "ff"
+        },
+        {
+            "emp_no": "1",
+            "sno": "2",
+            "from": "2015-02-19",
+            "to": "2014-03-12",
+            "res_addr": "ff",
+            "dist_hq_name": "ff"
+        }
+    ],
+    "pending_emp_pay_details":
+    {
+        "emp_no": "1",
+        "pay_code": "we",
+        "basic_pay": "10"
+    },
+    "pending_emp_prev_exp_details":[
+        {
+        "emp_no": "1",
+        "sno": "1",
+        "designation": "ff",
+        "from": "2018-09-29",
+        "to": "2018-09-29",
+        "pay_scale": "12",
+        "address": "asc",
+        "remarks": "dd"
+    },
+    {
+        "emp_no": "1",
+        "sno": "2",
+        "designation": "ff",
+        "from": "2018-09-29",
+        "to": "2018-09-29",
+        "pay_scale": "12",
+        "address": "asc",
+        "remarks": "dd"
+    }
+    ],
+    "pending_faculty_details":
+    
+         {
+        "emp_no": "1",
+        "research_interest": "we"
+    },
+    "pending_user_address" :
+    {
+        "id": "1",
+        "line1": "dd",
+        "line2": "dd",
+        "city": "dd",
+        "state": "dd",
+        "pincode": "123",
+        "country": "dd",
+        "contact_no": "22",
+        "type": "dd"
+    },
+    "pending_user_details":
+    {
+        "id": "1",
+        "salutation": "ww",
+        "first_name": "ww",
+        "middle_name": "Ww",
+        "last_name": "dd",
+        "sex": "dd",
+        "category": "ddd",
+        "allocated_category": "D",
+        "dob": "2018-09-29",
+        "email": "dpd",
+        "photopath": "Dd",
+        "marital_status": "dd",
+        "physically_challenged": "Dd",
+        "dept_id": "dd",
+        "updated": "2018-09-29"
+    },
+    "pending_user_other_details" : 
+     {
+        "id": "1",
+        "religion": "ee",
+        "nationality": "ee",
+        "kashmiri_immigrant": "e",
+        "hobbies": "ee",
+        "fav_past_time": "ee",
+        "birth_place": "ee",
+        "mobile_no": "123",
+        "father_name": "dd",
+        "mother_name": "dd",
+        "bank_name": "Dd",
+        "bank_accno": "123"
+    }
+    
+}
