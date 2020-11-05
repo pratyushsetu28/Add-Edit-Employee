@@ -4,8 +4,19 @@ module.exports = app => {
     var router = require("express").Router();
     
     // Create a new Tutorial
-    router.post("/", add_employee.create);
-  
+    //router.post("/", add_employee.create);
+    router.post("/add-employee" ,add_employee.check );
+    router.post("/add-employee-basic-details",add_employee.emp_basic_details);
+    router.post("/add-employee-previous-employment-details",add_employee.emp_prev_emp_details);
+    router.post("/add-employee-previous-stay-details" ,add_employee.emp_prev_stay_details );
+    router.post("/add-employee-educational-qualifications",add_employee.emp_educational_qualification );
+    router.post("/add-employee-dependent-family-members-details",add_employee.emp_family_details);
+    /*
+
+
+
+/add-employee-dependent-family-members-details : family membeers
+*/
     // Retrieve all Tutorials
     /*
     router.get("/", tutorials.findAll);
@@ -25,6 +36,6 @@ module.exports = app => {
     // Delete all Tutorials
     router.delete("/", tutorials.deleteAll);
   */
-    app.use('/api/addEmployee', router);
+    app.use('/api/add-edit-employee', router);
   };
   

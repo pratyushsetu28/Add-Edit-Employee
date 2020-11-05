@@ -1,3 +1,4 @@
+
 {
     "pending_emp_basic_details": {
         "emp_no": "1",
@@ -81,7 +82,8 @@
     {
         "emp_no": "1",
         "pay_code": "we",
-        "basic_pay": "10"
+        "basic_pay": "10",
+        "grade_pay" : "44"
     },
     "pending_emp_prev_exp_details":[
         {
@@ -136,6 +138,7 @@
         "dob": "2018-09-29",
         "email": "dpd",
         "photopath": "Dd",
+        "signature": "ff",
         "marital_status": "dd",
         "physically_challenged": "Dd",
         "dept_id": "dd",

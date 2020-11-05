@@ -30,7 +30,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'year': {
-			type: DataTypes.DATEONLY,
+			type: DataTypes.STRING(20),
 			allowNull: false,
 			comment: "null"
 		},

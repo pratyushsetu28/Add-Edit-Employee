@@ -13,6 +13,11 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			comment: "null"
 		},
+		'grade_pay': {
+			type: DataTypes.BIGINT,
+			allowNull: false,
+			comment: "null"
+		},
 		'basic_pay': {
 			type: DataTypes.BIGINT,
 			allowNull: false,

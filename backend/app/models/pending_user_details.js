@@ -55,7 +55,12 @@ module.exports = function(sequelize, DataTypes) {
 		},
 		'photopath': {
 			type: DataTypes.STRING(150),
-			allowNull: false,
+			allowNull: true,
+			comment: "null"
+		},
+		'signature': {
+			type: DataTypes.STRING(150),
+			allowNull: true,
 			comment: "null"
 		},
 		'marital_status': {
@@ -73,6 +78,8 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			comment: "null"
 		},
+		
+		
 		'updated': {
 			type: DataTypes.DATE,
 			allowNull: true,
