@@ -13,7 +13,7 @@ module.exports = function(sequelize, DataTypes) {
 			}
 		},
 		'research_interest': {
-			type: DataTypes.TEXT,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		}

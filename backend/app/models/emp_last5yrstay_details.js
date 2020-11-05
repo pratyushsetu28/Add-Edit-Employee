@@ -13,28 +13,28 @@ module.exports = function(sequelize, DataTypes) {
 			}
 		},
 		'sno': {
-			type: DataTypes.INTEGER,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			primaryKey: true,
 			comment: "null"
 		},
 		'from': {
-			type: DataTypes.DATEONLY,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
 		'to': {
-			type: DataTypes.DATEONLY,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
 		'res_addr': {
-			type: DataTypes.TEXT,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
 		'dist_hq_name': {
-			type: DataTypes.TEXT,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		}

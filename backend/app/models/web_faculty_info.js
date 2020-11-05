@@ -9,7 +9,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'salutation': {
-			type: DataTypes.STRING(5),
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
@@ -54,7 +54,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'mobile_no': {
-			type: DataTypes.BIGINT,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
@@ -64,17 +64,17 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'joining_date': {
-			type: DataTypes.DATEONLY,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
 		'retirement_date': {
-			type: DataTypes.DATEONLY,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
 		'research_interest': {
-			type: DataTypes.TEXT,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
@@ -89,7 +89,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'cv_date_time': {
-			type: DataTypes.DATE,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			defaultValue: sequelize.literal('CURRENT_TIMESTAMP'),
 			comment: "null"
@@ -100,7 +100,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'pub_date_time': {
-			type: DataTypes.DATE,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			defaultValue: sequelize.literal('CURRENT_TIMESTAMP'),
 			comment: "null"

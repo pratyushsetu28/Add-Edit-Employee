@@ -3,7 +3,7 @@
 module.exports = function(sequelize, DataTypes) {
 	return sequelize.define('auth_menu_detail', {
 		'menu_id': {
-			type: DataTypes.STRING(5),
+			type: DataTypes.STRING(20),
 			allowNull: false,
 			primaryKey: true,
 			comment: "null"
@@ -39,7 +39,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'status': {
-			type: DataTypes.STRING(2),
+			type: DataTypes.STRING(20),
 			allowNull: false,
 			defaultValue: 'Y',
 			comment: "null"

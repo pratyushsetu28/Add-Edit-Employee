@@ -9,7 +9,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'sno': {
-			type: DataTypes.INTEGER,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			primaryKey: true,
 			comment: "null"

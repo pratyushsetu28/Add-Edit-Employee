@@ -14,12 +14,12 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'ism_card_issued_on': {
-			type: DataTypes.DATEONLY,
+			type: DataTypes.STRING(50),
 			allowNull: true,
 			comment: "null"
 		},
 		'ism_card_valid_upto': {
-			type: DataTypes.DATEONLY,
+			type: DataTypes.STRING(50),
 			allowNull: true,
 			comment: "null"
 		},

@@ -23,27 +23,27 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'office_no': {
-			type: DataTypes.BIGINT,
+			type: DataTypes.STRING(50),
 			allowNull: true,
 			comment: "null"
 		},
 		'fax': {
-			type: DataTypes.BIGINT,
+			type: DataTypes.STRING(50),
 			allowNull: true,
 			comment: "null"
 		},
 		'joining_date': {
-			type: DataTypes.DATEONLY,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
 		'retirement_ext': {
-			type: DataTypes.INTEGER,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
 		'retirement_date': {
-			type: DataTypes.DATEONLY,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},

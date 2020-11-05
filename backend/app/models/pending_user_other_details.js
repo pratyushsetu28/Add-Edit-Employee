@@ -24,12 +24,12 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'hobbies': {
-			type: DataTypes.TEXT,
+			type: DataTypes.STRING(150),
 			allowNull: true,
 			comment: "null"
 		},
 		'fav_past_time': {
-			type: DataTypes.TEXT,
+			type: DataTypes.STRING(150),
 			allowNull: true,
 			comment: "null"
 		},
@@ -39,7 +39,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'mobile_no': {
-			type: DataTypes.BIGINT,
+			type: DataTypes.STRING(150),
 			allowNull: false,
 			comment: "null"
 		},
@@ -54,12 +54,12 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'bank_name': {
-			type: DataTypes.STRING(60),
+			type: DataTypes.STRING(150),
 			allowNull: true,
 			comment: "null"
 		},
 		'bank_accno': {
-			type: DataTypes.STRING(30),
+			type: DataTypes.STRING(150),
 			allowNull: true,
 			comment: "null"
 		}

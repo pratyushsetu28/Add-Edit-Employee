@@ -3,13 +3,13 @@
 module.exports = function(sequelize, DataTypes) {
 	return sequelize.define('pending_emp_family_details', {
 		'emp_no': {
-			type: DataTypes.STRING(11),
+			type: DataTypes.STRING(12),
 			allowNull: false,
 			primaryKey: true,
 			comment: "null"
 		},
 		'sno': {
-			type: DataTypes.INTEGER,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			primaryKey: true,
 			comment: "null"
@@ -30,7 +30,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'present_post_addr': {
-			type: DataTypes.TEXT,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
@@ -40,7 +40,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'dob': {
-			type: DataTypes.DATEONLY,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},

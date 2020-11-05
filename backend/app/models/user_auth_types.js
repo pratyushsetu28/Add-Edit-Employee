@@ -3,7 +3,7 @@
 module.exports = function(sequelize, DataTypes) {
 	return sequelize.define('user_auth_types', {
 		'id': {
-			type: DataTypes.STRING(11),
+			type: DataTypes.STRING(12),
 			allowNull: false,
 			primaryKey: true,
 			comment: "null",

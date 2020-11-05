@@ -14,12 +14,12 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'grade_pay': {
-			type: DataTypes.BIGINT,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
 		'basic_pay': {
-			type: DataTypes.BIGINT,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		}

@@ -9,7 +9,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'sno': {
-			type: DataTypes.INTEGER,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			primaryKey: true,
 			comment: "null"
@@ -20,12 +20,12 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'from': {
-			type: DataTypes.DATEONLY,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
 		'to': {
-			type: DataTypes.DATEONLY,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
@@ -35,12 +35,12 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'address': {
-			type: DataTypes.TEXT,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
 		'remarks': {
-			type: DataTypes.TEXT,
+			type: DataTypes.STRING(50),
 			allowNull: true,
 			comment: "null"
 		}

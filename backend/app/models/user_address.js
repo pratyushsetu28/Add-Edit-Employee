@@ -9,12 +9,12 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'line1': {
-			type: DataTypes.TEXT,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
 		'line2': {
-			type: DataTypes.TEXT,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
@@ -29,7 +29,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'pincode': {
-			type: DataTypes.BIGINT,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
@@ -39,7 +39,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'contact_no': {
-			type: DataTypes.BIGINT,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},

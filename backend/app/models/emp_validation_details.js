@@ -49,7 +49,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'created_date': {
-			type: DataTypes.DATE,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			primaryKey: true,
 			comment: "null"

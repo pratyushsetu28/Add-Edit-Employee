@@ -10,7 +10,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'curr_step': {
-			type: DataTypes.INTEGER,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		}

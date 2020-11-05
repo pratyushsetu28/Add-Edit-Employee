@@ -46,7 +46,7 @@ exports.check = (req,res) => {
 
 exports.emp_basic_details = (req,res) => {
 
-    
+      
   PendingEmpBasicDetails = 
     {
       emp_no: req.body.employeeId,
@@ -137,11 +137,7 @@ PendingUserOtherDetails =
 
   
   
-  pending_emp_basic_details.create(PendingEmpBasicDetails)
-  .then (data =>  {
-    
-  }   
-  )   
+  pending_emp_basic_details.create(PendingEmpBasicDetails)   
   .catch(err => {
     res.status(500).send({
       message:
@@ -150,10 +146,7 @@ PendingUserOtherDetails =
   });  
   
   pending_user_details.create(PendingUserDetails)
-  .then (data =>  {
-    
-  }   
-  ) 
+
   .catch(err => {
     res.status(500).send({
       message:
@@ -162,10 +155,6 @@ PendingUserOtherDetails =
   });  
   
   pending_emp_pay_details.create(PendingEmpPayDetails)
-  .then (data =>  {
-    
-  }   
-  ) 
   .catch(err => {
     res.status(500).send({
       message:
@@ -174,10 +163,7 @@ PendingUserOtherDetails =
   });  
 
   pending_faculty_details.create(PendingFacultyDetails)
-  .then (data =>  {
-    
-  }   
-  ) 
+ 
   .catch(err => {
     res.status(500).send({
       message:
@@ -186,10 +172,7 @@ PendingUserOtherDetails =
   });  
 
   pending_user_address.create(PendingUserPresentAddress)
-  .then (data =>  {
-    
-  }   
-  ) 
+  
   .catch(err => {
     res.status(500).send({
       message:
@@ -198,10 +181,7 @@ PendingUserOtherDetails =
   });  
 
   pending_user_address.create(PendingUserPermanantAddress)
-  .then (data =>  {
-    
-  }   
-  ) 
+ 
   .catch(err => {
     res.status(500).send({
       message:
@@ -210,24 +190,14 @@ PendingUserOtherDetails =
   });   
 
   pending_user_other_details.create(PendingUserOtherDetails)
-  .then (data =>  {
   
-  }   
-  ) 
   .catch(err => {
     res.status(500).send({
       message:
         err.message || "Some error occurred while creating the pending_user_other_details."
     });
   });  
-
  
-  res.status(201).send({
-    message : "success"
-  });
-
-
-  
 };
 
 

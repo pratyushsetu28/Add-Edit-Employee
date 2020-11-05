@@ -24,12 +24,12 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'hobbies': {
-			type: DataTypes.TEXT,
+			type: DataTypes.STRING(50),
 			allowNull: true,
 			comment: "null"
 		},
 		'fav_past_time': {
-			type: DataTypes.TEXT,
+			type: DataTypes.STRING(50),
 			allowNull: true,
 			comment: "null"
 		},
@@ -39,7 +39,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'mobile_no': {
-			type: DataTypes.BIGINT,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},

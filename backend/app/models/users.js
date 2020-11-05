@@ -23,14 +23,14 @@ module.exports = function(sequelize, DataTypes) {
 			}
 		},
 		'created_date': {
-			type: DataTypes.DATE,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
 		'status': {
-			type: DataTypes.ENUM('A','D'),
+			type: DataTypes.STRING(50),
 			allowNull: false,
-			defaultValue: 'A',
+			
 			comment: "null"
 		},
 		'remark': {

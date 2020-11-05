@@ -13,7 +13,7 @@ module.exports = function(sequelize, DataTypes) {
 			}
 		},
 		'sno': {
-			type: DataTypes.INTEGER,
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			primaryKey: true,
 			comment: "null"
@@ -34,12 +34,12 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'year': {
-			type: DataTypes.STRING(4),
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},
 		'grade': {
-			type: DataTypes.STRING(4),
+			type: DataTypes.STRING(50),
 			allowNull: false,
 			comment: "null"
 		},

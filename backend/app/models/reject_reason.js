@@ -3,7 +3,7 @@
 module.exports = function(sequelize, DataTypes) {
 	return sequelize.define('reject_reason', {
 		'id': {
-			type: DataTypes.INTEGER,
+			type: STRING(15),
 			allowNull: false,
 			primaryKey: true,
 			comment: "null"
@@ -29,7 +29,7 @@ module.exports = function(sequelize, DataTypes) {
 			comment: "null"
 		},
 		'created_date': {
-			type: DataTypes.DATE,
+			type: STRING(150),
 			allowNull: false,
 			defaultValue: sequelize.literal('CURRENT_TIMESTAMP'),
 			comment: "null"
